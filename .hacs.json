@@ -2,7 +2,7 @@
   "integration": {
     "category": "integration",
     "name": "Access Control",
-    "repository": "TON_UTILISATEUR/home-assistant-access-control",
+    "repository": "Bbellec/home-assistant-access-control",
     "render_readme": false
   }
 }
