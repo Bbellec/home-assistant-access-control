@@ -1,0 +1,10 @@
+{
+  "domain": "access_control",
+  "name": "Access Control",
+  "documentation": "https://github.com/tu-utilisateur/access_control",
+  "issue_tracker": "https://github.com/tu-utilisateur/access_control/issues",
+  "dependencies": ["mqtt"],
+  "codeowners": ["@tu-utilisateur"],
+  "requirements": [],
+  "version": "0.1.0"
+}

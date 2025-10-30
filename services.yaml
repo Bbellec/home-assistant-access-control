@@ -1,0 +1,58 @@
+add_reader:
+  name: Add a new reader
+  description: Add a new reader with an empty UID list.
+  fields:
+    reader_id:
+      name: Reader ID
+      description: Unique identifier for the reader.
+      required: true
+      example: "machine1"
+    name:
+      name: Reader name
+      description: Friendly name for the reader.
+      required: true
+      example: "Machine 1"
+
+add_uid:
+  name: Add a new UID to a reader
+  description: Add a new UID to a reader's list.
+  fields:
+    reader_id:
+      name: Reader ID
+      description: Unique identifier for the reader.
+      required: true
+      example: "machine1"
+    uid:
+      name: UID
+      description: Unique identifier for the user.
+      required: true
+      example: "123456789"
+    name:
+      name: Name
+      description: User's name.
+      required: true
+      example: "Jean"
+    surname:
+      name: Surname
+      description: User's surname.
+      required: true
+      example: "Dupont"
+    allowed:
+      name: Allowed
+      description: Whether the user is allowed to access the machine.
+      required: false
+      example: true
+      default: false
+
+toggle_uid:
+  name: Toggle UID access
+  description: Toggle the allowed status of a UID.
+  fields:
+    reader_id:
+      name: Reader ID
+      required: true
+      example: "machine1"
+    uid:
+      name: UID
+      required: true
+      example: "123456789"
